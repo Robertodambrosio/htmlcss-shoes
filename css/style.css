@@ -4,6 +4,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: sans-serif;
 }
 
 /* init header  */
@@ -49,4 +50,22 @@ header nav ul li a{
 #section3 {
     height: 100vh;
     background-color: yellow;
+}
+
+/* sezione 1  */
+
+.main-content {
+    text-align: center;
+    width: 50%;
+    margin: 0 auto;
+}
+
+.main-content img {
+    height: 450px;
+}
+
+.main-content h2{
+    text-transform: uppercase;
+    font-size: 60px;
+    color: yellow;
 }
