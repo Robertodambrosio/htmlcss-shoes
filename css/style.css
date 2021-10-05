@@ -6,31 +6,47 @@
     box-sizing: border-box;
 }
 
+/* init header  */
+
 header {
     height: 80px;
     position: fixed;
-    position: relative;
+    right: 0;
 }
 
 header nav{
-    position: absolute;
-    right: 0;
-    bottom: 0;
-    line-height: 80px;    
+    line-height: 80px;  
 }
 
 header nav ul li{
     display: inline-block;
-    text-align: right;
     background-color: transparent;
 }
+
 
 header nav ul li a{
     text-decoration: none;
     font-size: 20px;
     margin-right: 30px;
-    padding: 20px;
+    padding: 15px 20px;
     border-radius: 50%;
+    background-color: white;
+    color: black;
+}
+
+/* init main  */
+
+#section1{
+    height: 100vh;
     background-color: red;
-    color: white
+}
+
+#section2 {
+    height: 100vh;
+    background-color: green;
+}
+
+#section3 {
+    height: 100vh;
+    background-color: yellow;
 }
